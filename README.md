@@ -1,10 +1,13 @@
-# Template
+# Bike Index
 
-#### _10-11-16_
+#### _10-12-16_
 
 #### By _**Aimen Khakwani**_
 
 ## Description
+
+This app takes prompts the user for a color, and then using the Bike Index API, shows all of the bikes registered with that color. Also shows bike name, id, serial number, manufacturer name, frame model, and a true if it stolen.
+**Does not require an API key**
 
 ## Setup/Installation Requirements
 

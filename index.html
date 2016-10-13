@@ -2,23 +2,29 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Alaram Clock</title>
+    <title>Bike Index</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="well">Alarm Clock</h1>
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>The Current time is: <span id="time"></span></h2>
-        </div>
-        <div class="col-sm-4">
+      <div class="row jumbotron">
+          <div class="col-sm-6">
+            <h1>Bike Index</h1>
+          </div>
+          <div class="col-sm-4 col-sm-offset-2">
+            <form id="form">
+              <br>
+              <br>
+              <input class="form-control" placeholder="Enter a color to see bikes" id="color" required>
+              <br>
+              <button class="btn btn-default center-block">Go!</button>
+            </form>
+          </div>
+      </div>
+      <div class="row output">
 
-        </div>
-        <div class="col-sm-4">
-
-        </div>
       </div>
     </div>
   </body>
