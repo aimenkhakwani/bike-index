@@ -6,23 +6,21 @@
 
 ## Description
 
-This app takes prompts the user for a color, and then using the Bike Index API, shows all of the bikes registered with that color. Also shows bike name, id, serial number, manufacturer name, frame model, and a true if it stolen.
+This app takes prompts the user for a color, and then using the Bike Index API, shows all of the bikes registered with that color. The app also shows each bike's name, id, serial number, manufacturer name, frame model, and a true if it stolen.
 **Does not require an API key**
 
 ## Setup/Installation Requirements
 
 * Clone the repository
 * Using the command line, navigate to the project's root directory
-* Take '.env' out of the .gitignore file
-* Add (exports.apiKey = "";) to the .env file without parens, and add an api key in the double quotes
 * Install node dependencies by running $ npm install
 * Install bower dependencies by running $ bower install
 * Build the files by running $ gulp build
-* Open index.html to view application in browser
+* Run $ gulp serve to view file in browser
 
 ## Known Bugs
 
-_None_
+* After running $ gulp build and viewing index.html in the browser, the bike's without images do not show the png bike icon. Instead they show the default icon when the image path is not correct. However when viewing the app with $gulp serve, all the images show up.
 
 ## Technologies Used
 
